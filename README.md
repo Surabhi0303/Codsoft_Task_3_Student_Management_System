@@ -15,3 +15,4 @@ students, and exiting the application.
 data is in the correct format
 
 I have used Mysql to store the student records
+To run this project you need to add mysqlconnector to your project dependencies
