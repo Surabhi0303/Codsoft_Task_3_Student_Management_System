@@ -13,3 +13,5 @@ adding a new student, editing an existing student's information, searching for a
 students, and exiting the application.
 6. Implement input validation to ensure that required fields are not left empty and that the student
 data is in the correct format
+
+I have used Mysql to store the student records
