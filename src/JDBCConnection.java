@@ -12,9 +12,9 @@ public class JDBCConnection {
 
        Scanner sc = new Scanner(System.in);
 
-        String url = "jdbc:mysql://localhost:3306/student_data";
-        String user = "root";
-        String pwd = "sheru123#";
+        String url = "jdbc:mysql://localhost:3306/database_name";
+        String user = "your_username";
+        String pwd = "your_password";
 
 
 
@@ -145,9 +145,9 @@ public class JDBCConnection {
 
     public static Connection Connection() throws ClassNotFoundException, SQLException {
 
-        String url = "jdbc:mysql://localhost:3306/student_data";
-        String user = "root";
-        String pwd = "sheru123#";
+         String url = "jdbc:mysql://localhost:3306/database_name";
+        String user = "your_username";
+        String pwd = "your_password";
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection con = DriverManager.getConnection(url, user, pwd);
